@@ -48,6 +48,16 @@ From the `3_crewai` directory:
 
 `crewai create crew [project_name]`
 
+For researcher project(new project), first change pyproject.toml, to
+> requires-python = ">=3.11,<3.13"
+
+& then in command prompt, install crewai for gemini (in agent root)
+using command:
+> uv add "crewai[google-genai]" "deepagents>=0.6.8" "pydantic<2.13" "rich<15.0.0"
+
+> Goto this folder -> cd 3_crewai/coursework/researcher 
+& Run -> crewai run
+
 ## Community Contributions
 
 It would be great to see your PRs in community_contributions! But please trim back the projects - make them concise.
