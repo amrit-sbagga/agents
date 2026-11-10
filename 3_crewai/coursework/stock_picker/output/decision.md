@@ -1,0 +1,1 @@
+{"name": "analyze_tool_result", "parameters": {"context": "Research findings as of 2026-11-11", "coworker": "Manager", "question": "Analyze the tool result. If requirements are met, provide the Final Answer. Otherwise, call the next tool. Deliver only the answer without meta-commentary."}}

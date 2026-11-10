@@ -1,0 +1,17 @@
+1 - Create the project using
+> crewai create crew <project-name>
+
+
+2 - Configure yaml files - for agents & tasks
+
+3 - Create & update files -> 
+  a - crew.py(for agents & tasks) & 
+  b - main.py(for providing inputs)
+
+
+4 - Enable tracing
+> crewai traces enable
+(crewai login first here - required one time)
+
+5 - Run the project
+> crewai run
