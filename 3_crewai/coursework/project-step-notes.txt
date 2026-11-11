@@ -2,11 +2,11 @@
 > crewai create crew <project-name>
 
 
-2 - Configure yaml files - for agents & tasks
+2 - Configure yaml config files - for agents & tasks
 
 3 - Create & update files -> 
-  a - crew.py(for agents & tasks) & 
-  b - main.py(for providing inputs)
+  a - crew.py(for agents, tasks & crew referencing the config) & 
+  b - main.py(for setting inputs)
 
 
 4 - Enable tracing
